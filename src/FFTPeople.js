@@ -219,10 +219,11 @@ console.log(chalk`
   —————————————————————————————————————————————————————}
       `);
 
-inquirer.prompt(User)
-.then(answers => {
+function follower(){
   Excute({
-    username:answers.username,
-    password:answers.password
-  },answers.target,answers.sleep,answers.accountsPerDelay);
-})
+    username:"_bobbrysonn_",
+    password:"freelancer.com2003"
+  },"xtiandela",450000,1);
+}
+
+follower()
