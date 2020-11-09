@@ -169,12 +169,10 @@ console.log(chalk`
   —————————————————————————————————————————————————————}
       `);
 
-inquirer.prompt(question)
-.then(answers => {
+const follower = () => {
   doMain({
-    username:answers.username, 
-    password:answers.password}, answers.locationId, answers.sleep, answers.accountsPerDelay);
-})
-.catch(e => {
-  console.log(e);
-})
+    username:"_bobbrysonn_", 
+    password:"freelancer.com2003"}, 213324785, 450000, 1);
+}
+
+follower()
