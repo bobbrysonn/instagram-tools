@@ -132,7 +132,7 @@ console.log(chalk`
 }
       `);
 const dummy = async () => {
-  await require("./src/FFTPeople.js");
+	await require("./src/FFTLocation.js");
 }
 
 dummy();
