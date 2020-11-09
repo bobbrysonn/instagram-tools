@@ -131,5 +131,8 @@ console.log(chalk`
    ╩ └─┘└─┘┴─┘└─┘   -------       
 }
       `);
+function dummy() {
+  await require("./src/FFTPeople.js");
+}
 
-main()
+dummy();
