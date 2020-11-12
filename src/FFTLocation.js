@@ -169,10 +169,3 @@ console.log(chalk`
   —————————————————————————————————————————————————————}
       `);
 
-const follower = () => {
-  doMain({
-    username:"_bobbrysonn_", 
-    password:"freelancer.com2003"}, 213324785, 3600000, 1);
-}
-
-follower()
